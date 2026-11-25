@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: j2me
+    runtime: docker
+    plan: free
+    envVars:
+      - key: TURN_URL
+        sync: false
+      - key: TURN_SECRET
+        sync: false
